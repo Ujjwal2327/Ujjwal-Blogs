@@ -6,10 +6,11 @@ import './App.css'
 
 export default function App() {
 
-  const{fetchBlogs, currentPage} = useContext(AppContext);
+  const{fetchBlogs} = useContext(AppContext);
 
   useEffect(()=>{
     fetchBlogs();
+    // eslint-disable-next-line
   },[])
 
   return (

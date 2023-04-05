@@ -5,7 +5,7 @@ import Loading from './Loading'
 
 const Blogs = () => {
 
-  const {isLoading, setIsloading, blogs} = useContext(AppContext);
+  const {isLoading, blogs} = useContext(AppContext);
   console.log('inside Blogs')
   console.log(blogs);
 

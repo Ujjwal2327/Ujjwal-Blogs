@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({details, key}) => {
  
-  const {title, author, date, category, tags, content, img} = details;
+  const {title, author, date, category, tags, content} = details;
 
   return (
     <div>
